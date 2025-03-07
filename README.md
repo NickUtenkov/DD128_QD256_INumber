@@ -14,10 +14,10 @@ IMinMaxValue<T>,\
 IRootFunctions<T>,\
 ITrigonometricFunctions<T>,\
 IHyperbolicFunctions<T>,\
-IFloatingPointConstants<T>\
+IFloatingPointConstants<T>
 
 When printing, if you do not use a format, the following will be printed:\
 for DD128 32 decimal digits.\
-for QD256 63 decimal digits.\
+for QD256 63 decimal digits.
 
 If any format is used, only the first component of the number will be printed.
