@@ -5,16 +5,16 @@
 Based on NetQD(https://github.com/rzikm/NetQD), which is based on QD library(https://github.com/aoki-t/QD).
 
 Suported interfaces :\
-INumber<T>,\
-ILogarithmicFunctions<T>,\
-IPowerFunctions<T>,\
-IExponentialFunctions<T>,\
-IMinMaxValue<T>,\
-IRootFunctions<T>,\
-ITrigonometricFunctions<T>,\
-IHyperbolicFunctions<T>,\
-IFloatingPointConstants<T>\
-IConvertible,
+INumber,\
+ILogarithmicFunctions,\
+IPowerFunctions,\
+IExponentialFunctions,\
+IMinMaxValue,\
+IRootFunctions,\
+ITrigonometricFunctions,\
+IHyperbolicFunctions,\
+IFloatingPointConstants,\
+IConvertible
 
 When printing, if you do not use a format, the following will be printed:\
 for DD128 32 decimal digits.\
